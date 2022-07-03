@@ -71,7 +71,7 @@ attempts.innerHTML =
   successCounter +
   " Failed: " +
   failCounter +
-  " --> Succesrate:" +
+  " --> Successrate:" +
   successRate +
   "%";
 avgMemo.innerHTML = "Average Memo Time: " + avgMemoValue;
