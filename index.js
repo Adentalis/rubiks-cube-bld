@@ -1,6 +1,6 @@
-var memoTimes = [238, 270, 188, 167, 181, 269, 228, 168, 324, 150];
-var solveTimes = [137, 95, 0, 170, 0, 0, 0, 137, 150, 0];
-var failTimes = [0, 0, 137, 0, 95, 159, 134, 0, 0, 100];
+var memoTimes = [238, 270, 188, 167, 181, 269, 228, 168, 324, 150, 190];
+var solveTimes = [137, 95, 0, 170, 0, 0, 0, 137, 150, 0, 0];
+var failTimes = [0, 0, 137, 0, 95, 159, 134, 0, 0, 100, 136];
 var labels = Array.from({ length: memoTimes.length }, (_, i) => i + 1);
 
 var ctx = document.getElementById("myChart").getContext("2d");
